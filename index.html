@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <!-- 引入reset.css -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- common -->
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- swiper.min.css -->
+    <link rel="stylesheet" href="./lib/swiper5/css/swiper.min.css">
+    <!-- inconfont.css -->
+    <link rel="stylesheet" href="./lib/iconfont/iconfont.css">
+    <!-- index.css -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./lib/bootstrap.min - 副本.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div>
+            <!-- <img src="./image/more.svg" alt=""> -->
+            <span class="iconfont icon-caidan"></span>
+            <input type="search" name="" id="" placeholder="寻找你的宝贝">
+            <!-- <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">登录 -->
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+                 登录
+                </button>
+
+
+
+                <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog"
+                    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <!-- <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5> </a> -->
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <form id="form1" action="">
+                                <p>用户名</p>
+                                <input type="text">
+                                <p>密码</p>
+                                <input type="text">
+                            </form>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+                                <button type="button" class="btn btn-primary">登录</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+           
+        </div>
+    </header>
+    <!-- 内容 -->
+    <main>
+        <!-- Swiper 图片 -->
+
+        <div class="swiper-container swiper1 nav">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./image/banner02.dpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./image/banner03.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./image/banner04.dpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./image/banner05.dpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./image/banner06.dpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <!-- 菜单栏 滚动-->
+        <div class="out-mune">
+            <div class="swiper-container swiper2 nav">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <ul class="nav-container">
+                            <li class="nav-item">
+                                <a href="#">
+                                    <img src="./image/nav-icon-01.webp" alt="">
+                                    <span>乐购国际</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">
+                                    <img src="./image/nav-icon-02.webp" alt="">
+                                    <span>乐购电器</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">
+                                    <img src="./image/nav-icon-03.webp" alt="">
+                                    <span>乐购服饰</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">
+                                    <img src="./image/nav-icon-04.webp" alt="">
+                                    <span>乐购生鲜</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">
+                                    <img src="./image/nav-icon-05.webp" alt="">
+                                    <span>乐购到家</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="nav-container">
+                            <li class="nav-item">
+                                <a href="#">
+                                    <img src="./image/nav-icon-06.webp" alt="">
+                                    <span>充值缴费</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">
+                                    <img src="./image/nav-icon-07.webp" alt="">
+                                    <span>9.9元拼</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">
+                                    <img src="./image/nav-icon-08.webp" alt="">
+                                    <span>领券</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">
+                                    <img src="./image/nav-icon-09.webp" alt="">
+                                    <span>赚钱</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">
+                                    <img src="./image/nav-icon-10.webp" alt="">
+                                    <span>PLUS会员</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <ul class="nav-container">
+                            <li class="nav-item">
+                                <a href="#">
+                                    <img src="./image/nav-icon-11.webp" alt="">
+                                    <span>乐购国际</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">
+                                    <img src="./image/nav-icon-12.webp" alt="">
+                                    <span>乐购拍卖</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">
+                                    <img src="./image/nav-icon-13.webp" alt="">
+                                    <span>唯品会</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">
+                                    <img src="./image/nav-icon-14.webp" alt="">
+                                    <span>玩3c</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">
+                                    <img src="./image/nav-icon-15.webp" alt="">
+                                    <span>沃尔玛</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                        <ul class="nav-container">
+                            <li class="nav-item">
+                                <a href="#">
+                                    <img src="./image/nav-icon-16.webp" alt="">
+                                    <span>美妆馆</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">
+                                    <img src="./image/nav-icon-17.webp" alt="">
+                                    <span>乐购旅行</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">
+                                    <img src="./image/nav-icon-18.webp" alt="">
+                                    <span>拍拍二手</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">
+                                    <img src="./image/nav-icon-19.webp" alt="">
+                                    <span>物流查询</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">
+                                    <img src="./image/nav-icon-20.webp" alt="">
+                                    <span>全部</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+        <!-- 乐购秒杀 -->
+        <div class="out-sec">
+            <div class="seckill">
+                <div class="time">
+                    <h3>乐购秒杀</h3>
+                    <p>
+                        <span>8点场</span>
+                        <span>00:</span>
+                        <span>08:</span>
+                        <span>06</span>
+                    </p>
+                    <a href="#">更多秒杀<span class="iconfont icon-youjiantou-tianchong"></span></a>
+                </div>
+                <ul>
+                    <li><a href="#"><img src="./image/seckill-img01.dpg" alt=""></a>
+                        <p><span class="c-red">￥1699</span><del>￥2699</del></p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./image/seckill-img02.dpg" alt=""></a>
+                        <p><span class="c-red">￥1699</span><del>￥2699</del></p>
+                    </li>
+                    <li> <a href="#"><img src="./image/seckill-img03.dpg" alt=""></a>
+                        <p><span class="c-red">￥1699</span><del>￥2699</del></p>
+                    </li>
+                    <li> <a href="#"><img src="./image/seckill-img04.dpg" alt=""></a>
+                        <p><span class="c-red">￥1699</span><del>￥2699</del></p>
+                    </li>
+                </ul>
+            </div>
+            <!-- 新人 -->
+            <p class="new">
+                <a href="#"><img src="./image/new-user01.dpg" alt=""></a>
+                <a href="#"><img src="./image/new-user02.dpg" alt=""></a>
+            </p>
+            <!-- 每日逛 -->
+            <p class="tit-img">
+                <img src="./image/daily-shopping-title-img.dpg" alt="">
+            </p>
+            <div class="day-cont">
+                <ul>
+                    <li>
+                        <h4>免息星球</h4>
+                        <span>白条免息购</span>
+                        <a href="#"><img src="./image/daily-shopping-img01.dpg" alt=""></a>
+                    </li>
+                    <li>
+                        <h4>免息星球</h4>
+                        <span>白条免息购</span>
+                        <a href="#"><img src="./image/daily-shopping-img02.dpg" alt=""></a>
+                    </li>
+                    <li>
+                        <h4>免息星球</h4>
+                        <span>白条免息购</span>
+                        <a href="#"><img src="./image/daily-shopping-img03.dpg" alt=""></a>
+                    </li>
+                    <li>
+                        <h4>免息星球</h4>
+                        <span>白条免息购</span>
+                        <a href="#"><img src="./image/daily-shopping-img04.dpg" alt=""></a>
+                    </li>
+                    <li>
+                        <h4>免息星球</h4>
+                        <span>白条免息购</span>
+                        <a href="#"><img src="./image/daily-shopping-img05.dpg" alt=""></a>
+                    </li>
+                    <li>
+                        <h4>免息星球</h4>
+                        <span>白条免息购</span>
+                        <a href="#"><img src="./image/daily-shopping-img06.dpg" alt=""></a>
+                    </li>
+                    <li>
+                        <h4>免息星球</h4>
+                        <span>白条免息购</span>
+                        <a href="#"><img src="./image/daily-shopping-img07.dpg" alt=""></a>
+                    </li>
+                    <li>
+                        <h4>免息星球</h4>
+                        <span>白条免息购</span>
+                        <a href="#"><img src="./image/daily-shopping-img08.dpg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 乐购快报 -->
+            <!-- <div class="bulletin ">
+                <h4>乐购快报</h4>
+                <div class="bull-cont">
+
+                    <div class="swiper-container swiper3 nav">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <span>HTO01</span>
+                                学习烘焙很简单 入门工具要必备哈哈哈哈哈哈哈
+                            </div>
+                            <div class="swiper-slide">
+                                <span>HTO02</span>
+                                学习烘焙很简单 入门工具要必备哈哈哈哈哈哈哈
+                            </div>
+                            <div class="swiper-slide">
+                                <span>HTO03</span>
+                                学习烘焙很简单 入门工具要必备哈哈哈哈哈哈哈
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <a href="#">|更多</a>
+            </div> -->
+
+            <div class="bulletion">
+                <div class="bulletion-title">
+                    乐购快报
+                </div>
+                <div class="bulletion-content">
+                    <div class="swiper-container swiper3">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <span>HOT01</span>
+                                学习烘焙很简单 入门工具要必备哈哈哈哈哈哈哈
+                            </div>
+                            <div class="swiper-slide">
+                                <span>HOT02</span>
+                                学习烘焙很简单 入门工具要必备哈哈哈哈哈哈哈
+                            </div>
+                            <div class="swiper-slide">
+                                <span>HOT03</span>
+                                学习烘焙很简单 入门工具要必备哈哈哈哈哈哈哈
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bulletion-more">
+                    |更多
+                </div>
+            </div>
+            <!-- 为你推荐 -->
+            <div class="re-img"><img src="./image/recommend-title-img.png" alt=""></div>
+
+            <!-- product -->
+            <ul class="product">
+                <li>
+                    <a href="#">
+                        <img src="./image/recommend-list-img01.webp" alt="">
+                    </a>
+                    <p class="pr-text">
+                        野狼军表钢带手表男士机械表 瑞士原装机械机芯 防水透底潜水表双历夜光
+                        商务男士蓝黑綠水鬼手表V5.1 本色蓝面款-蓝光（晒单赠尼龙表带）
+                    </p>
+                    <p class="price">
+                        <span class="c-red">￥3888</span>
+                        <span class="similarity">找相似</span>
+                    </p>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./image/recommend-list-img02.webp" alt="">
+                    </a>
+                    <p class="pr-text">
+                        野狼军表钢带手表男士机械表 瑞士原装机械机芯 防水透底潜水表双历夜光
+                        商务男士蓝黑綠水鬼手表V5.1 本色蓝面款-蓝光（晒单赠尼龙表带）
+                    </p>
+                    <p class="price">
+                        <span class="c-red">￥3888</span>
+                        <span class="similarity">找相似</span>
+                    </p>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./image/recommend-list-img03.webp" alt="">
+                    </a>
+                    <p class="pr-text">
+                        野狼军表钢带手表男士机械表 瑞士原装机械机芯 防水透底潜水表双历夜光
+                        商务男士蓝黑綠水鬼手表V5.1 本色蓝面款-蓝光（晒单赠尼龙表带）
+                    </p>
+                    <p class="price">
+                        <span class="c-red">￥3888</span>
+                        <span class="similarity">找相似</span>
+                    </p>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./image/recommend-list-img04.webp" alt="">
+                    </a>
+                    <p class="pr-text">
+                        野狼军表钢带手表男士机械表 瑞士原装机械机芯 防水透底潜水表双历夜光
+                        商务男士蓝黑綠水鬼手表V5.1 本色蓝面款-蓝光（晒单赠尼龙表带）
+                    </p>
+                    <p class="price">
+                        <span class="c-red">￥3888</span>
+                        <span class="similarity">找相似</span>
+                    </p>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./image/recommend-list-img05.webp" alt="">
+                    </a>
+                    <p class="pr-text">
+                        野狼军表钢带手表男士机械表 瑞士原装机械机芯 防水透底潜水表双历夜光
+                        商务男士蓝黑綠水鬼手表V5.1 本色蓝面款-蓝光（晒单赠尼龙表带）
+                    </p>
+                    <p class="price">
+                        <span class="c-red">￥3888</span>
+                        <span class="similarity">找相似</span>
+                    </p>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./image/recommend-list-img06.webp" alt="">
+                    </a>
+                    <p class="pr-text">
+                        野狼军表钢带手表男士机械表 瑞士原装机械机芯 防水透底潜水表双历夜光
+                        商务男士蓝黑綠水鬼手表V5.1 本色蓝面款-蓝光（晒单赠尼龙表带）
+                    </p>
+                    <p class="price">
+                        <span class="c-red">￥3888</span>
+                        <span class="similarity">找相似</span>
+                    </p>
+                </li>
+            </ul>
+
+            <!-- 底线 -->
+            <div class="bottom-line">
+                <div class="b-line"></div>
+                <div>我也是有底线的</div>
+                <div class="b-line"></div>
+            </div>
+        </div>
+    </main>
+    <!-- 页脚 -->
+    <footer>
+        <ul>
+            <li class="cur">
+                <a class="cur" href="./index.html"> <span class="iconfont icon-ziyuan"></span>
+
+                </a>
+                <p>首页</p>
+            </li>
+            <li>
+                <a href="./classify.html"> <span class="iconfont icon-fenlei"></span>
+
+                </a>
+                <p>分类</p>
+            </li>
+            <li>
+                <a href="./shop-car.html"><span class="iconfont icon-gouwuche"></span>
+
+                </a>
+                <p>购物车</p>
+            </li>
+            <li>
+                <a href="./my.html"><span class="iconfont icon-wode"></span>
+
+                </a>
+                <p>我的</p>
+            </li>
+        </ul>
+
+    </footer>
+</body>
+
+</html>
+<!-- jq -->
+
+<script src="./lib/jquery.js"></script>
+<script src="./js/common.js"></script>
+
+
+<script src="./lib/popper.min - 副本.js"></script>
+<script src="./lib/bootstrap.min - 副本.js"></script>
+<!-- swiper.min.js -->
+<script src="./lib/swiper5/js/swiper.min.js"></script>
+<!-- index.js -->
+<script src="./js/index.js"></script>

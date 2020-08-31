@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+header {
+    background-color: white;
+}
+
+header input {
+    background: url(../image/search.svg)no-repeat;
+    background-position: 3px 6px;
+    background-color: #f1f1f1;
+    width: 88% !important;
+
+}
+
+
+header img {
+    width: 20px !important;
+    height: 20px !important;
+    margin-top: 5px;
+}
+
+/* main */
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.main .left {
+    display: flex;
+    flex-direction: column;
+    /* overflow: scroll; */
+}
+
+.main .left>li {
+    
+    width: 100%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+.main .left>li.active {
+    background-color: white;
+
+}
+
+.main .left>li>a.active1 {
+    color: red;
+}
+
+.main .left>li>a {
+    display: block;
+    color: #000;
+}
+
+.main .right {
+    flex: 1;
+    width: 75%;
+    background-color: white;
+    overflow: scroll;
+
+}
+
+.main .right>div {
+    width: 100%;
+    display: none;
+}
+.main .right>div.active2{
+    display: block;
+}
+
+.main .right h3 {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.main .right ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+
+
+}
+
+.main .right>div>ul>li {
+    margin-top: 10px;
+    width: -webkit-calc(33.3% - 0.5px);
+
+}
+
+.main .right>div>ul>li img {
+    width: 100%;
+}
+
+.main .right>div>ul>li span {
+    display: block;
+    text-align: center;
+}

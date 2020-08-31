@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+.my-head {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    padding: 15px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.my-head img {
+    width: 60px;
+    height: 60px;
+}
+
+.my-head .my-msg {
+    flex: 1;
+    margin-left: 15px;
+}
+
+.my-sever {
+    display: flex;
+    justify-content: space-around;
+    margin: 12px 0;
+    background-color: #fff;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.my-sever>li {
+    width: -webkit-calc(25%);
+
+
+}
+
+.my-sever>li a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #000;
+
+}
+
+.my-sever>li a>span.iconfont {
+    font-size: 36px;
+}
+
+.my-order {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.my-order>li {
+    height: 60px;
+
+    border-bottom: 1px solid #f2f2f2;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.my-order>li:nth-child(1) {
+    border-top: 1px solid #f2f2f2;
+}
+
+.my-order>li span.iconfont {
+    font-size: 30px;
+    color: red;
+    margin-right: 10px;
+}
+
+.my-order>li>span.iconfont {
+    color: #ccc;
+}

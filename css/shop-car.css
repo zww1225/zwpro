@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+header {
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+
+header>div {
+    color: #000;
+}
+
+header span {
+    margin-left: 10px;
+    font-size: 16px !important;
+}
+
+header h3 {
+    flex: 1;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+}
+
+
+main .check-box input {
+    display: none;
+}
+
+main .check-box input:checked+span {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+
+main .check-box span {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 15px;
+    color: transparent;
+
+}
+
+
+main .shop-cont {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0px;
+    box-sizing: border-box;
+}
+
+main .shop-cont .shop-img {
+    width: 22vw;
+    height: 22vw;
+    margin-left: 15px;
+}
+
+main .shop-cont img {
+    width: 100%;
+
+}
+
+
+main .num>input {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    text-align: center;
+    line-height: 15px;
+
+}
+
+main .num {
+    display: flex;
+    align-self: flex-end;
+    margin-right: 10px;
+}
+
+main .num a {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #ccc;
+    display: block;
+    background-color: white;
+    line-height: 15px;
+    text-align: center;
+    color: black;
+   
+}
+
+.main-ul>li {
+    display: flex;
+    align-items: center;
+    padding: 5px 5px;
+    box-sizing: border-box;
+}
+
+main .shop-text>p:nth-child(2) {
+    font-size: 12px;
+}
+
+
+
+/* 计算 */
+footer .all {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+   
+    box-sizing: border-box;
+    line-height: 40px;
+}
+
+footer .all .all-price {
+    flex: 1;
+    text-align: center;
+}
+
+
+footer .all input {
+    display: none;
+}
+
+footer .all label input:checked+span {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+
+footer .all label span {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 15px;
+    color: transparent;
+
+
+}
+
+footer .allcheck {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+footer .go-price {
+    background-color: #E43130;
+    height: 40px;
+    width: 80px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+  
+}
+
+
+/* 底线 */
+.bottom-line {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+.b-line {
+    align-self: center;
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+    margin: 0px 5px;
+}
